@@ -1,0 +1,14 @@
+C:\code\priv\AdventOfCode18\AoC18_NetCore\Day01\bin\Debug\netcoreapp2.1\Day01.deps.json
+C:\code\priv\AdventOfCode18\AoC18_NetCore\Day01\bin\Debug\netcoreapp2.1\Day01.runtimeconfig.json
+C:\code\priv\AdventOfCode18\AoC18_NetCore\Day01\bin\Debug\netcoreapp2.1\Day01.runtimeconfig.dev.json
+C:\code\priv\AdventOfCode18\AoC18_NetCore\Day01\bin\Debug\netcoreapp2.1\Day01.dll
+C:\code\priv\AdventOfCode18\AoC18_NetCore\Day01\bin\Debug\netcoreapp2.1\Day01.pdb
+C:\code\priv\AdventOfCode18\AoC18_NetCore\Day01\bin\Debug\netcoreapp2.1\Core.dll
+C:\code\priv\AdventOfCode18\AoC18_NetCore\Day01\bin\Debug\netcoreapp2.1\Core.pdb
+C:\code\priv\AdventOfCode18\AoC18_NetCore\Day01\obj\Debug\netcoreapp2.1\Day01.csprojAssemblyReference.cache
+C:\code\priv\AdventOfCode18\AoC18_NetCore\Day01\obj\Debug\netcoreapp2.1\Day01.csproj.CoreCompileInputs.cache
+C:\code\priv\AdventOfCode18\AoC18_NetCore\Day01\obj\Debug\netcoreapp2.1\Day01.AssemblyInfoInputs.cache
+C:\code\priv\AdventOfCode18\AoC18_NetCore\Day01\obj\Debug\netcoreapp2.1\Day01.AssemblyInfo.cs
+C:\code\priv\AdventOfCode18\AoC18_NetCore\Day01\obj\Debug\netcoreapp2.1\Day01.csproj.CopyComplete
+C:\code\priv\AdventOfCode18\AoC18_NetCore\Day01\obj\Debug\netcoreapp2.1\Day01.dll
+C:\code\priv\AdventOfCode18\AoC18_NetCore\Day01\obj\Debug\netcoreapp2.1\Day01.pdb
