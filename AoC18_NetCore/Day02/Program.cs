@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using Core;
 
 namespace Day02
@@ -9,6 +11,32 @@ namespace Day02
         static void Main(string[] args)
         {
             var input = InputFileReader.ReadAllLines("Input.txt");
+            var inputList = input.ToList();
+
+            var pairNotFound = true;
+            var res1 = "";
+            var res2 = "";
+            while (pairNotFound)
+            {
+                var s1 = inputList[0];
+                foreach (var s in inputList)
+                {
+                    if (s.Equals(s1)) continue;
+                    if (hasOneDifference(s1, s))
+                    {
+                        res1 = s1;
+                        res2 = s;
+                        pairNotFound = false;
+                        break;
+                    }
+                }
+
+                inputList.Remove(s1);
+            }
+
+            var res = returnResult(res1, res2);
+
+            /*
             var inputAnalytics = new List<Dictionary<char, int>>();
 
             foreach (var s in input)
@@ -58,9 +86,40 @@ namespace Day02
                 }
             }
             var res = count2*count3;
+            */
 
             Console.WriteLine(res);
             Console.ReadLine();
+        }
+
+        private static bool hasOneDifference(string s1, string s2)
+        {
+            if (s1.Length != s2.Length) return false;
+            var differences = 0;
+            for (var i = 0; i < s1.Length; i++)
+            {
+                if (!(s1[i] == s2[i]))
+                {
+                    differences++;
+                }
+            }
+
+            if (differences == 1) return true;
+            return false;
+        }
+
+        private static string returnResult(string s1, string s2)
+        {
+            var builder = new StringBuilder();
+            for (var i = 0; i < s1.Length; i++)
+            {
+                if ((s1[i] == s2[i]))
+                {
+                    builder.Append(s1[i]);
+                }
+            }
+
+            return builder.ToString();
         }
     }
 }
