@@ -11,6 +11,7 @@ namespace Day02
         static void Main(string[] args)
         {
             var input = InputFileReader.ReadAllLines("Input.txt");
+            var input = new[] {"", ""};
             var inputList = input.ToList();
 
             var pairNotFound = true;
